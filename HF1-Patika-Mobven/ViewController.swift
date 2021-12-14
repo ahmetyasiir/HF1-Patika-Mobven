@@ -8,7 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var ilkDegisken = 1
+    
     @IBOutlet weak var firstLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
